@@ -13,4 +13,5 @@ func main() {
 	cryptoList[3] = "SOLANA"
 
 	fmt.Println("CryptoList is \n", cryptoList)
+	fmt.Println("Length of CryptoList Array is ", len(cryptoList)) //4
 }
