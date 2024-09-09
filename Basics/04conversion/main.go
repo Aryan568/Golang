@@ -16,6 +16,7 @@ func main() {
 	input, _ := reader.ReadString('\n')
 
 	fmt.Println("Thanks for rating ", input)
+<<<<<<< HEAD
 
 	numRating, err := strconv.ParseFloat(strings.TrimSpace(input), 64)
 
@@ -24,4 +25,14 @@ func main() {
 	} else {
 		fmt.Println("We have added 1 to your rating, so now the rating is", numRating+1)
 	}
+=======
+	fmt.Printf("Value Type: %T \n", input)
+
+	numRating, _ := strconv.ParseFloat(strings.TrimSpace(input), 64)
+	fmt.Println("\nWe have added 1 to your rating, so now the rating is", numRating+1)
+
+	
+
+
+>>>>>>> 8361048 (Golang practice)
 }
