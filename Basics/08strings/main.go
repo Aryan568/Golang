@@ -49,5 +49,5 @@ func main() {
 	fmt.Println(strings.ToUpper(name4))     //upper case
 	fmt.Println(strings.ToLower(text))		//lower case
 
-	fmt.Println(strings.Split(text, " "))
+	fmt.Println(strings.Split(text, ""))
 }
