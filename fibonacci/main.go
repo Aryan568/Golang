@@ -8,7 +8,7 @@ func fib(n int) (int, bool) {
 	if n<0 {
 		return 0, false
 	}
-	if n <= 1 {
+	if n == 1 || n == 0 {
 		return n, true
 	}
 	var n1, n2 = 0, 1
@@ -21,5 +21,5 @@ func fib(n int) (int, bool) {
 func main() {
 	fmt.Println(fib(9))  
 	fmt.Println(fib(0))
-	fmt.Println(fib(-9))    
+	fmt.Println(fib(1))    
 }

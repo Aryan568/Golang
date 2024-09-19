@@ -9,11 +9,11 @@ import (
 func minMax(input ...int) (int, int) {
 	min:= input[0]
 	max:=input[0]
-	for i := 1; i < len(input)-1; i++ {
-		if min>input[i+1] {
+	for i := 1; i < len(input); i++ {
+		if min>input[i] {
 			min=input[i]
 		}
-		if max<input[i+1] {
+		if max<input[i] {
 			max=input[i]
 		}
 	}

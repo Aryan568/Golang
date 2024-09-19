@@ -20,5 +20,5 @@ func createPerson(name string, age int) (*person, error) {
 }
 
 func main() {
-	fmt.Println(createPerson("RDJ", -66))
+	fmt.Println(createPerson("RDJ", 66))
 }
