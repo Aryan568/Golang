@@ -16,6 +16,7 @@ func main() {
 	fmt.Printf("%c\n", name[3])
 	fmt.Printf("%c\n", name[4])
 	fmt.Printf("%c\n", name[5])
+	
 
 	fmt.Println("Length of the string:", len(name))  //string length
 
@@ -49,5 +50,7 @@ func main() {
 	fmt.Println(strings.ToUpper(name4))     //upper case
 	fmt.Println(strings.ToLower(text))		//lower case
 
-	fmt.Println(strings.Split(text, ""))
+	texts:= "Gem:ini"
+	parts:= strings.Split(texts, ":")
+	fmt.Println(parts[0]+"\n"+parts[1])
 }

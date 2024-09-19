@@ -5,7 +5,6 @@ import "fmt"
 func main() {
 	fmt.Println("Channels")
 
-	// Create channels
 	num:= make(chan int)
 	str:= make(chan string)
 
